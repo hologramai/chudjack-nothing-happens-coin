@@ -47,6 +47,7 @@ const Hero = () => {
           <Button 
             size="lg" 
             className="bg-gray-900 hover:bg-gray-800 text-white px-8 py-3 text-lg transition-all duration-300 hover:scale-105"
+            onClick={() => window.open('https://pump.fun/coin/EZ8ivZo4ZjTLZGJtJEmhosxhdby7GSfDRS5Ha6h4pump', '_blank')}
           >
             Buy $JACK (If You Must)
           </Button>
@@ -54,7 +55,7 @@ const Hero = () => {
             variant="outline" 
             size="lg" 
             className="border-gray-400 text-gray-700 hover:bg-gray-50 px-8 py-3 text-lg transition-all duration-300 hover:scale-105"
-            onClick={() => window.open('https://pump.fun/coin/EZ8ivZo4ZjTLZGJtJEmhosxhdby7GSfDRS5Ha6h4pump', '_blank')}
+            onClick={() => window.open('https://dexscreener.com/solana/7wxf1fmojya4sbj9usyz1u4bjjewwaqpj8gjt5z65zc5', '_blank')}
           >
             View Chart (Flatline Expected)
           </Button>
