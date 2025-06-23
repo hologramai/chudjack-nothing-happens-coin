@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 
@@ -12,10 +11,10 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 text-center relative z-10">
         {/* Token Symbol */}
-        <div className="mb-8">
+        <div className="mb-8 mt-8">
           <div className="inline-block p-4 rounded-full border-4 border-gray-300 bg-white shadow-lg">
             <img 
-              src="/lovable-uploads/a138cd47-0415-4892-bf0b-891772ee25e9.png" 
+              src="/pic/meme.png" 
               alt="CHUDJACK" 
               className="w-32 h-32 object-cover rounded-full"
             />
@@ -67,6 +66,20 @@ const Hero = () => {
             0x0000000000000000000000000000000000000000
           </p>
           <p className="text-xs text-gray-400 mt-1">(Still nothing)</p>
+        </div>
+
+        {/* Video */}
+        <div className="mt-8 flex justify-center">
+          <video 
+            className="w-1/2 rounded-lg shadow-lg"
+            autoPlay
+            muted
+            controls
+            loop
+          >
+            <source src="/video/fuentes.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
     </div>

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
@@ -26,8 +25,8 @@ const Tokenomics = () => {
     },
     {
       label: "Team Allocation",
-      value: "0%",
-      description: "Team too apathetic to claim tokens"
+      value: "6%",
+      description: "Team too apathetic to claim more tokens"
     },
     {
       label: "Marketing Budget",

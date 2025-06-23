@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { TrendingDown, Shield, Infinity, Vote, Coins, AlertTriangle } from 'lucide-react';
@@ -27,8 +26,8 @@ const Features = () => {
     },
     {
       icon: <Coins className="w-8 h-8 text-gray-600" />,
-      title: "Staking Rewards",
-      description: "Earn more $JACK! (It's still nothing, but now you have more of it.)"
+      title: "Accumulate More",
+      description: "And Nothing Will Happen"
     },
     {
       icon: <AlertTriangle className="w-8 h-8 text-gray-600" />,

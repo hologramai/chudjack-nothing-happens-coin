@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -76,32 +75,14 @@ const Community = () => {
             </Card>
           </div>
           
-          {/* Social Links */}
-          <div className="text-center">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">
-              Other Places We Exist (Barely)
-            </h3>
-            <div className="flex flex-wrap justify-center gap-4">
-              <Button variant="outline" className="border-gray-300 text-gray-700 hover:bg-gray-50">
-                Twitter (X) - @NothingHappens
-              </Button>
-              <Button variant="outline" className="border-gray-300 text-gray-700 hover:bg-gray-50">
-                Discord - Silent Server
-              </Button>
-              <Button variant="outline" className="border-gray-300 text-gray-700 hover:bg-gray-50">
-                Reddit - r/NothingEverHappens
-              </Button>
-            </div>
+          {/* Footer */}
+          <div className="mt-20 pt-8 border-t border-gray-200 text-center">
+            <p className="text-gray-500 text-sm">
+              © 2025 CHUDJACK. All rights reserved (not that it matters).
+              <br />
+              Built with apathy and resignation. Nothing ever happens.
+            </p>
           </div>
-        </div>
-        
-        {/* Footer */}
-        <div className="mt-20 pt-8 border-t border-gray-200 text-center">
-          <p className="text-gray-500 text-sm">
-            © 2024 CHUDJACK. All rights reserved (not that it matters).
-            <br />
-            Built with apathy and resignation. Nothing ever happens.
-          </p>
         </div>
       </div>
     </div>
