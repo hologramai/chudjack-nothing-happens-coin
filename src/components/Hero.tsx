@@ -54,6 +54,7 @@ const Hero = () => {
             variant="outline" 
             size="lg" 
             className="border-gray-400 text-gray-700 hover:bg-gray-50 px-8 py-3 text-lg transition-all duration-300 hover:scale-105"
+            onClick={() => window.open('https://pump.fun/coin/EZ8ivZo4ZjTLZGJtJEmhosxhdby7GSfDRS5Ha6h4pump', '_blank')}
           >
             View Chart (Flatline Expected)
           </Button>
@@ -63,9 +64,8 @@ const Hero = () => {
         <div className="mt-12 p-4 bg-gray-50 rounded-lg border border-gray-200 max-w-md mx-auto">
           <p className="text-sm text-gray-500 mb-2">Contract Address:</p>
           <p className="font-mono text-xs text-gray-700 break-all">
-            0x0000000000000000000000000000000000000000
+            EZ8ivZo4ZjTLZGJtJEmhosxhdby7GSfDRS5Ha6h4pump
           </p>
-          <p className="text-xs text-gray-400 mt-1">(Still nothing)</p>
         </div>
 
         {/* Video */}
